@@ -1,4 +1,4 @@
-# Natural_Language_Processing
+# Natural Language Processing
 
 In this assignment we will use Natural Language processing to analyse news articles about two major cryptocurrencies, namely Bitcoin and Ethereum. 
 
