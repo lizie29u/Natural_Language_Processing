@@ -1,30 +1,31 @@
 # Natural Language Processing
 
-In this assignment we will use Natural Language processing to analyse news articles about two major cryptocurrencies, namely Bitcoin and Ethereum. 
+Cryptocurrency is now a very regular topic in news discussions. I will analyze the latest news headlines regarding Bitcoin and Ethereum to get a better feel for the current public sentiment around each coin.
+
+I will complete the following tasks:
+
+1. Sentiment Analysis
+2. Natural Language Processing
+3. Named Entity Recognition
+
+## Data
 
 We used the "newsapi" to fetch the news articles.  The results were saved in  json files, from which we created dataframes  to conduct various analyses.
 
-
+### Sentiments Analysis
 A sentiment analysis was performed on both sets of articles, which returned the below results:
 
 ![sentiment_analysis](Images/sentiment_analysis.PNG)
 
 
 
- We will use these results to answer the following questions:
-
-(1) Q: Which coin had the highest mean positive score?
-A: The coin with the highest mean positive score was Bitcoin.
-
-(2) Q: Which coin had the highest compound score?
-A: The coin with the highest compound score was Ethereum.
-
-(3)Q. Which coin had the highest positive score?
-A: The coin with the highest positive score was Ethereum.
+ From the descriptive statistics we can see that:
+- The coin with the highest mean positive score was bitcoin
+-  The coin with the highest compound score was Ethereum.
+- The coin with the highest positive score was Ethereum.
 
 
-(4)Q. Which coin had the highest negative score?
-A: The coin with the highest negative score was Ethereum.
+### Natural Language Processing
 
 We used NLTK and Python to tokenize the texts for each coin.  From this we were able to derive the following visualizations:
 
