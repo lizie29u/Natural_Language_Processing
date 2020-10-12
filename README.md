@@ -1,6 +1,6 @@
 # Natural Language Processing
 
-Cryptocurrency is now a very regular topic in news discussions. I will analyze the latest news headlines regarding Bitcoin and Ethereum to get a better feel for the current public sentiment around each coin.
+Cryptocurrency is now a very regular topic in news discussions. In this project, I will analyze the latest news headlines regarding Bitcoin and Ethereum to get a better feel for the current public sentiment around each coin.
 
 I will complete the following tasks:
 
@@ -10,7 +10,7 @@ I will complete the following tasks:
 
 ## Data
 
-We used the "newsapi" to fetch the news articles.  The results were saved in  json files, from which we created dataframes  to conduct various analyses.
+The "newsapi" was used to fetch the news articles.  The results were saved in  json files, from which dataframes were created to conduct various analyses.
 
 ### Sentiments Analysis
 A sentiment analysis was performed on both sets of articles, which returned the below results:
@@ -27,7 +27,7 @@ A sentiment analysis was performed on both sets of articles, which returned the 
 
 ### Natural Language Processing
 
-We used NLTK and Python to tokenize the texts for each coin.  From this we were able to derive the following visualizations:
+I used NLTK and Python to tokenize the texts for each coin.  From this, the following visualizations were derived:
 
  (1) the top 10 words for each coin:
 
